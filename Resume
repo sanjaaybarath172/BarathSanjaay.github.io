@@ -1,0 +1,29 @@
+<html>
+<body>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+<br><br>
+<h1>Resume</h1>
+<h2>Barath Sanjaay MSR</h2>
+<hr />
+<br>
+<p class="head">Interests</p>
+<ul>
+<li>Playing Football</li>
+<li>Photography</li>
+<li>Design</li>
+</ul>
+<p class="head">Skills</p>
+<ul>
+<li>Web Design with HTML</li>
+</ul>
+<p class="head">Extracurriculars</p>
+<ul>
+<li>Robotics club</li>
+<li>Gardening</li>
+<li>Book club</li>
+</ul>
+</div>
+</body>
+</html>
