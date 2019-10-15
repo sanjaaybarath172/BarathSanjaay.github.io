@@ -1,0 +1,67 @@
+
+
+<html>
+
+<body>
+<h1 style="color:blue;">My Javascript</h1> 
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+<div id = "sibi" onmouseover="mOver()" onmouseout="mOut(this)" 
+
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+
+Mouse Over Me</div>
+
+<script>
+
+	
+
+function mOver() 
+
+{
+
+document.getElementById("sibi").innerHTML = "<span style='color: green;'>**Message**</span></br>"; 
+
+}
+
+
+
+function mOut(obj)
+
+{
+
+  obj.innerHTML = "Mouse Over Me"
+
+}
+
+</script>
+<p><button onclick="myMove()">Animate me</button></p>
+<div id="container">
+<div id="animate"></div>
+</div>
+<script>
+function myMove(){
+var anim= document.getElementById("animate");
+var pos=200;
+var id=setInterval(frame,60);
+function frame(){
+if(pos==350){
+clearInterval(id);
+}else{
+pos++;
+anim.style.top=pos + "px";
+anim.style.right + pos + "px";
+}
+}
+}
+</script>
+</body>
+
+</html> 
